@@ -17,3 +17,12 @@ export TOMTOM_API_KEY="XXX"
 
 and run `npm run env` to load it.
 
+## Notes 
+
+
+https://www.npmjs.com/package/@tomtom-international/web-sdk-services <-- deprecated
+
+
+Maybe write a smoke test that will pull down the npm and call the search?
+
+https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly

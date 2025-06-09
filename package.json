@@ -5,22 +5,24 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc",
     "env": "source .env.sh",
     "test": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' mocha test/**/*.ts"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "tsc": "^2.0.4",
-    "typescript": "^5.8.3"
-  },
   "devDependencies": {
     "@types/chai": "^5.2.2",
     "@types/mocha": "^10.0.10",
     "chai": "^5.2.0",
     "mocha": "^11.5.0",
+    "nock": "^14.0.5",
     "ts-mocha": "^11.1.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "node-fetch": "^3.3.2"
   }
 }
