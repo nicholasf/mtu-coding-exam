@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import nock from 'nock';
-import { search, tomtomToQuickRoute } from '../src/index.js';
+import { search, tomtomToQuickRoute, Address, TomTom } from '../src/index.js';
 
 const TEST_API_KEY = 'TEST';
 

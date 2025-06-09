@@ -1,0 +1,42 @@
+challenge.pdf
+
+# Source files
+src/
+test/
+
+
+# Build tools
+tsconfig.json
+.env.sh
+challenge.pdf
+
+# Development dependencies
+node_modules/
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Test files
+*.test.js
+*.test.ts
+test/
+
