@@ -1,11 +1,17 @@
 # mtu-coding-exam
 
+## Installation
+
+```
+npm i git+https://github.com/nicholasf/mtu-coding-exam.git
+```
+
 ## Introduction
 
 This is my solution for [Montu's backend coding challenge](./challenge.pdf). 
 
 My approach is to implement a client search to TamTam as an npm. The challenge is emphasizing clean typing and extensibility, so my focus will be to provide an interface for the search with a TamTam implementation that can be swapped out with another implementation.
-
+npm i git+https://github.com/nicholasf/mtu-coding-exam.git
 The provided API key is expected to be found in an env var called `TAMTAM_API_KEY`. The TamTam search implementation should return an error if this is not present.
 
 Create a `.env.sh` file like this:

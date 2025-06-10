@@ -2,11 +2,13 @@
   "name": "mtu-coding-exam",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "type": "module",
+  "types": "src/index.ts",
   "scripts": {
     "build": "npx tsc",
-    "env": "source .env.sh",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build",
     "test": "NODE_OPTIONS='--loader ts-node/esm --no-warnings' mocha test/**/*.ts"
   },
   "author": "",
